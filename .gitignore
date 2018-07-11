@@ -2,5 +2,5 @@ xcuserdata
 Build
 .build
 *.framework
-
+.DS_Store
 .idea
