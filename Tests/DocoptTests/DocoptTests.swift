@@ -341,7 +341,7 @@ class DocoptTests: XCTestCase {
         let doc = "Usage: prog [-v] A\n\n           Options: -v  Be verbose."
         let result = Docopt(doc, argv: ["arg"]).result
         let fixture : [String:Any] = ["-v": false, "A": "arg"]
-        XCTAssertTrue(valuesMatch(result, fixture))
+        XCTAssertTrue(valuesMatch(result as Any, fixture))
     }
 
     static var allTests = [
