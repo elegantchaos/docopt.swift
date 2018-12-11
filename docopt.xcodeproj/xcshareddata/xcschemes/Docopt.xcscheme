@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3CE9112D1AA1DE7D00082C0B"
+               BlueprintIdentifier = "Docopt::Docopt"
                BuildableName = "Docopt.framework"
                BlueprintName = "Docopt"
                ReferencedContainer = "container:docopt.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3CE911381AA1DE7E00082C0B"
+               BlueprintIdentifier = "Docopt::DocoptTests"
                BuildableName = "DocoptTests.xctest"
                BlueprintName = "DocoptTests"
                ReferencedContainer = "container:docopt.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CE9112D1AA1DE7D00082C0B"
+            BlueprintIdentifier = "Docopt::Docopt"
             BuildableName = "Docopt.framework"
             BlueprintName = "Docopt"
             ReferencedContainer = "container:docopt.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CE9112D1AA1DE7D00082C0B"
+            BlueprintIdentifier = "Docopt::Docopt"
             BuildableName = "Docopt.framework"
             BlueprintName = "Docopt"
             ReferencedContainer = "container:docopt.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CE9112D1AA1DE7D00082C0B"
+            BlueprintIdentifier = "Docopt::Docopt"
             BuildableName = "Docopt.framework"
             BlueprintName = "Docopt"
             ReferencedContainer = "container:docopt.xcodeproj">
