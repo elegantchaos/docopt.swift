@@ -9,6 +9,8 @@
 import Foundation
 
 internal class DocoptError {
+    static let errorStatusCode: Int32 = 1000
+    
     var message: String
     var name: String
    
@@ -26,7 +28,7 @@ internal class DocoptError {
             DocoptError.errorMessage = msg
         } else {
             print(msg)
-            exit(0)
+            exit(DocoptError.errorStatusCode)
         }
     }
 }
