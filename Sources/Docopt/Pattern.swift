@@ -21,9 +21,9 @@ internal class Pattern: Equatable, Hashable, CustomStringConvertible {
             return "Pattern"
         }
     }
-    var hashValue: Int { get {
-            return self.description.hashValue
-        }
+    
+    func hash(into hasher: inout Hasher) {
+        description.hash(into: &hasher)
     }
 
     func fixIdentities(_ unq: [LeafPattern]? = nil) {}
