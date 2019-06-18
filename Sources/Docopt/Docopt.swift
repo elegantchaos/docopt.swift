@@ -16,7 +16,7 @@ open class Docopt {
     fileprivate let optionsFirst: Bool
     fileprivate let arguments: [String]
 
-    @objc public static func parse(_ doc: String, argv: [String], help: Bool = false, version: String? = nil, optionsFirst: Bool = false) -> [String: Any] {
+    public static func parse(_ doc: String, argv: [String], help: Bool = false, version: String? = nil, optionsFirst: Bool = false) -> [String: Any] {
         return Docopt(doc, argv: argv, help: help, version: version, optionsFirst: optionsFirst).result
     }
 
