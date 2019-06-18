@@ -77,7 +77,7 @@ internal class LeafPattern : Pattern {
         var left_ = left
         left_.remove(at: pos)
 
-        var sameName = collected.filter({ item in
+        let sameName = collected.filter({ item in
             if let cast = item as? LeafPattern {
                 return self.name == cast.name
             }
