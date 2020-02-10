@@ -58,7 +58,7 @@ internal class LeafPattern : Pattern {
         }
     }
 
-    override func flat<T: LeafPattern>(_: T.Type) -> [T] {
+    override func flat<T: Pattern>(_: T.Type) -> [T] {
         if let cast = self as? T {
             return [cast]
         }

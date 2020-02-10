@@ -83,10 +83,10 @@ internal class Option: LeafPattern {
         return Option(short, long: long, argCount: argCount, value: value)
     }
 
-    override func singleMatch<T: LeafPattern>(_ left: [T]) -> SingleMatchResult {
+    override func singleMatch<T: Pattern>(_ left: [T]) -> SingleMatchResult {
         for i in 0..<left.count {
             let pattern = left[i]
-            if pattern.name == name {
+            if let leaf = pattern as? LeafPattern, leaf.name == name {
                 return (i, pattern)
             }
         }
